@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13T14:35:24Z",
+ "checked": "2026-11-13T14:45:16Z",
  "sites": {
   "kayak": {
    "code": 200,
@@ -18,8 +18,8 @@
    "state": "up"
   },
   "rentalcars": {
-   "code": 200,
-   "state": "up"
+   "code": 405,
+   "state": "blocked"
   },
   "costco": {
    "code": 403,
@@ -30,8 +30,8 @@
    "state": "up"
   },
   "turo": {
-   "code": 200,
-   "state": "up"
+   "code": 403,
+   "state": "blocked"
   },
   "enterprise": {
    "code": 403,
