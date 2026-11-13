@@ -1,0 +1,16 @@
+{
+  "name": "Car Rental Finder",
+  "short_name": "Car Rental",
+  "description": "Find the best and cheapest rental car: one-tap price searches on Kayak, Expedia, Costco Travel and the rental companies, J.D. Power scores, fee guide, quote tracker and trip cost calculator. Information only.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b4f5c",
+  "theme_color": "#0d8478",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

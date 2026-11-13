@@ -1,0 +1,441 @@
+{
+ "dataReviewed": "2026-11-13",
+ "jdpAvg2026": 707,
+ "jdpAvg2025": 691,
+ "sources": {
+  "jdp26": {
+   "name": "J.D. Power 2026 North America Rental Car Satisfaction Study (press release, Oct 7, 2026)",
+   "url": "https://www.jdpower.com/business/press-releases/2026-north-america-rental-car-satisfaction-study/",
+   "updated": "2026-10-07"
+  },
+  "jdp26all": {
+   "name": "TravelPulse: full 2026 J.D. Power brand scores",
+   "url": "https://www.travelpulse.com/news/car-rail/biggest-factor-driving-car-rental-satisfaction"
+  },
+  "btn26": {
+   "name": "Business Travel News: 2026 scores and changes vs 2025",
+   "url": "https://www.businesstravelnews.com/Transportation/Car/Enterprise-Again-Tops-JD-Power-Car-Rental-Satisfaction-Survey"
+  },
+  "jdp25": {
+   "name": "J.D. Power 2025 North America Rental Car Satisfaction Study (Oct 8, 2025)",
+   "url": "https://www.jdpower.com/business/press-releases/2025-north-america-rental-car-satisfaction-study/",
+   "updated": "2025-10-08"
+  },
+  "txtax": {
+   "name": "Texas Comptroller: Motor Vehicle Gross Rental Receipts Tax",
+   "url": "https://comptroller.texas.gov/taxes/motor-vehicle/gross-rental.php"
+  },
+  "dwu": {
+   "name": "DWU Consulting: airport rental car Customer Facility Charges",
+   "url": "https://dwuconsulting.com/info/data/cfc"
+  },
+  "alamofees": {
+   "name": "Alamo USA taxes and fees by airport (Sept 2025 schedule)",
+   "url": "https://ofran.co.il/sites/default/files/2025-09/USA_Alamo_Taxes_and_Fees.pdf",
+   "updated": "2025-09-16"
+  },
+  "aarp": {
+   "name": "AARP: Car rental discounts (updated Apr 24, 2026)",
+   "url": "https://www.aarp.org/membership/benefits/car-rental-discounts/",
+   "updated": "2026-04-24"
+  },
+  "aaa": {
+   "name": "AAA: Hertz member benefits",
+   "url": "https://discounts.aaa.com/travel/hertz"
+  },
+  "payless": {
+   "name": "Payless: AARP member savings",
+   "url": "https://www.paylesscar.com/en/deals/partners/aarp"
+  },
+  "costco": {
+   "name": "Frequent Miler: Costco Travel waives one additional-driver fee",
+   "url": "https://frequentmiler.com/dont-sleep-on-costco-travel-for-car-rental-bookings-especially-if-you-have-an-additional-driver/"
+  },
+  "visa": {
+   "name": "Visa Auto Rental Collision Damage Waiver terms (excludes Jamaica)",
+   "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/Solutions/documents/infinite-business-auto-rental-collision-damage-waiver-benefit-terms.pdf"
+  },
+  "nw": {
+   "name": "NerdWallet: What credit card rental car coverage doesn't include",
+   "url": "https://www.nerdwallet.com/credit-cards/learn/credit-card-rental-car-coverage-what-it-doesnt-include"
+  },
+  "jtb": {
+   "name": "Jamaica Tourist Board: Vehicle rentals and driving tips",
+   "url": "https://www.visitjamaica.com/plan-your-adventure/getting-around/vehicle-rentals-transportation-services/"
+  },
+  "icr": {
+   "name": "Island Car Rentals: Rental policies",
+   "url": "https://islandcarrentals.com/rentalPolicies"
+  }
+ },
+ "fees": [
+  {
+   "id": "dfw",
+   "place": "DFW Airport",
+   "pct": 27.78,
+   "perDay": 11.03,
+   "lines": [
+    "Texas rental tax 10%",
+    "Concession recovery fee 12.78%",
+    "Euless sports venue tax 5%",
+    "Per-day concession $8.63",
+    "Vehicle license fee recovery $2.40/day"
+   ],
+   "note": "Alamo's published DFW fees. DWU Consulting lists DFW's Customer Facility Charge as $7.50 a day. Other companies are similar but not identical.",
+   "src": [
+    "alamofees",
+    "dwu",
+    "txtax"
+   ]
+  },
+  {
+   "id": "dal",
+   "place": "Dallas Love Field (DAL)",
+   "pct": 22.22,
+   "perDay": 5.85,
+   "lines": [
+    "Texas rental tax 10%",
+    "Concession recovery fee 12.22%",
+    "Customer facility charge $3.30/day",
+    "Vehicle license fee recovery $2.55/day"
+   ],
+   "note": "Alamo's published Love Field fees. Other companies are similar but not identical.",
+   "src": [
+    "alamofees",
+    "txtax"
+   ]
+  },
+  {
+   "id": "frisco",
+   "place": "Frisco neighborhood office (off-airport)",
+   "pct": 10,
+   "perDay": 0,
+   "lines": [
+    "Texas rental tax 10% (6.25% if over 30 days)",
+    "No airport concession or facility charges"
+   ],
+   "note": "Some companies add a small vehicle license fee. Check the price summary before you book.",
+   "src": [
+    "txtax"
+   ]
+  },
+  {
+   "id": "jam",
+   "place": "Jamaica (MBJ / KIN)",
+   "pct": null,
+   "perDay": null,
+   "lines": [
+    "Taxes and airport fees vary by company",
+    "Collision waiver is often required (see Tips)"
+   ],
+   "note": "No verified fee schedule was found. Use the total shown on your quote.",
+   "src": [
+    "jtb"
+   ]
+  }
+ ],
+ "companies": [
+  {
+   "id": "enterprise",
+   "name": "Enterprise",
+   "color": "#169a5a",
+   "site": "https://www.enterprise.com/",
+   "jdp": 739,
+   "jdp25": 734,
+   "parent": "Enterprise Mobility",
+   "loyalty": "Enterprise Plus",
+   "perks": [
+    [
+     "Costco Travel: one additional driver free (U.S.)",
+     "costco"
+    ]
+   ],
+   "tags": [
+    "costco"
+   ]
+  },
+  {
+   "id": "national",
+   "name": "National",
+   "color": "#00703c",
+   "site": "https://www.nationalcar.com/",
+   "jdp": 726,
+   "jdp25": 721,
+   "parent": "Enterprise Mobility",
+   "loyalty": "Emerald Club",
+   "perks": [],
+   "tags": []
+  },
+  {
+   "id": "advantage",
+   "name": "Advantage",
+   "color": "#e1251b",
+   "site": "https://www.advantage.com/",
+   "jdp": 717,
+   "jdp25": 711,
+   "parent": "Independent",
+   "loyalty": "Expressway",
+   "perks": [],
+   "tags": []
+  },
+  {
+   "id": "alamo",
+   "name": "Alamo",
+   "color": "#1a5fb4",
+   "site": "https://www.alamo.com/",
+   "jdp": 716,
+   "parent": "Enterprise Mobility",
+   "loyalty": "Alamo Insiders",
+   "perks": [
+    [
+     "Costco Travel: one additional driver free (U.S.)",
+     "costco"
+    ]
+   ],
+   "tags": [
+    "costco"
+   ]
+  },
+  {
+   "id": "sixt",
+   "name": "Sixt",
+   "color": "#ff5f00",
+   "site": "https://www.sixt.com/",
+   "jdp": 714,
+   "jdp25": 711,
+   "parent": "Independent",
+   "loyalty": "SIXT ONE",
+   "perks": [],
+   "tags": []
+  },
+  {
+   "id": "hertz",
+   "name": "Hertz",
+   "color": "#f2b600",
+   "fg": "#1d1300",
+   "site": "https://www.hertz.com/",
+   "jdp": 711,
+   "parent": "Hertz Global",
+   "loyalty": "Hertz Gold Plus Rewards",
+   "perks": [
+    [
+     "AAA: up to 20% off base rate",
+     "aaa"
+    ],
+    [
+     "AAA: extra AAA drivers free (saves $15/day each)",
+     "aaa"
+    ],
+    [
+     "AAA: young-renter fee waived ages 20-24 (saves $25/day)",
+     "aaa"
+    ],
+    [
+     "AAA: one free child seat; 10% off prepaid fuel",
+     "aaa"
+    ]
+   ],
+   "tags": [
+    "aaa"
+   ]
+  },
+  {
+   "id": "ace",
+   "name": "ACE Rent A Car",
+   "color": "#c8102e",
+   "site": "https://www.acerentacar.com/",
+   "jdp": 704,
+   "parent": "Independent",
+   "loyalty": "ACE Member Rewards",
+   "perks": [],
+   "tags": []
+  },
+  {
+   "id": "payless",
+   "name": "Payless",
+   "color": "#7a2d8f",
+   "site": "https://www.paylesscar.com/",
+   "jdp": 699,
+   "parent": "Avis Budget Group",
+   "loyalty": null,
+   "perks": [
+    [
+     "AARP: 5% off base rate",
+     "aarp"
+    ],
+    [
+     "AARP: one additional driver free",
+     "payless"
+    ]
+   ],
+   "tags": [
+    "aarp"
+   ]
+  },
+  {
+   "id": "avis",
+   "name": "Avis",
+   "color": "#d4002a",
+   "site": "https://www.avis.com/",
+   "jdp": 696,
+   "parent": "Avis Budget Group",
+   "loyalty": "Avis Preferred",
+   "perks": [
+    [
+     "AARP: up to 35% off base rate (Pay Now) or 30% (Pay Later)",
+     "aarp"
+    ],
+    [
+     "AARP: one additional driver free",
+     "aarp"
+    ],
+    [
+     "Costco Travel: one additional driver free (U.S.)",
+     "costco"
+    ]
+   ],
+   "tags": [
+    "aarp",
+    "costco"
+   ],
+   "frisco": "https://www.avis.com/en/locations/nam/us/tx/frisco"
+  },
+  {
+   "id": "fox",
+   "name": "Fox Rent A Car",
+   "color": "#f26b21",
+   "site": "https://www.foxrentacar.com/",
+   "jdp": 677,
+   "parent": "Independent",
+   "loyalty": "Fox Rewards",
+   "perks": [],
+   "tags": []
+  },
+  {
+   "id": "budget",
+   "name": "Budget",
+   "color": "#ff6a13",
+   "site": "https://www.budget.com/",
+   "jdp": 675,
+   "parent": "Avis Budget Group",
+   "loyalty": "Budget Fastbreak",
+   "perks": [
+    [
+     "AARP: up to 35% off base rate (Pay Now) or 30% (Pay Later)",
+     "aarp"
+    ],
+    [
+     "AARP: one additional driver free",
+     "aarp"
+    ],
+    [
+     "Costco Travel: one additional driver free (U.S.)",
+     "costco"
+    ]
+   ],
+   "tags": [
+    "aarp",
+    "costco"
+   ],
+   "frisco": "https://www.budget.com/en/locations/us/tx/frisco/f1r"
+  },
+  {
+   "id": "thrifty",
+   "name": "Thrifty",
+   "color": "#0067b1",
+   "site": "https://www.thrifty.com/",
+   "jdp": 666,
+   "parent": "Hertz Global",
+   "loyalty": "Blue Chip Rewards",
+   "perks": [],
+   "tags": []
+  },
+  {
+   "id": "dollar",
+   "name": "Dollar",
+   "color": "#c41230",
+   "site": "https://www.dollar.com/",
+   "jdp": 663,
+   "parent": "Hertz Global",
+   "loyalty": "Dollar Express Rewards",
+   "perks": [],
+   "tags": []
+  }
+ ],
+ "jamaica": [
+  {
+   "id": "islandcar",
+   "name": "Island Car Rentals (Jamaica)",
+   "color": "#0a7f74",
+   "site": "https://islandcarrentals.com/",
+   "note": "Jamaican company with offices at Montego Bay and Kingston. Drivers 21-75 for standard cars (25+ for vans and luxury SUVs). Under-25 surcharge may apply.",
+   "src": "icr"
+  },
+  {
+   "id": "jtb",
+   "name": "Jamaica Tourist Board licensed rental list",
+   "color": "#1b8a3a",
+   "site": "https://www.visitjamaica.com/plan-your-adventure/getting-around/vehicle-rentals-transportation-services/",
+   "note": "Official list of licensed rental companies in Kingston, Montego Bay and Ocho Rios.",
+   "src": "jtb"
+  }
+ ],
+ "search": [
+  {
+   "id": "kayak",
+   "name": "Kayak",
+   "color": "#ff690f",
+   "site": "https://www.kayak.com/cars",
+   "desc": "Compares most rental companies and travel sites at once."
+  },
+  {
+   "id": "expedia",
+   "name": "Expedia",
+   "color": "#1f2b6c",
+   "site": "https://www.expedia.com/Cars",
+   "desc": "Big travel site. AARP's Travel Center also runs on Expedia."
+  },
+  {
+   "id": "priceline",
+   "name": "Priceline",
+   "color": "#0068ef",
+   "site": "https://www.priceline.com/rental-cars",
+   "desc": "Shows many companies, plus Express Deals."
+  },
+  {
+   "id": "hotwire",
+   "name": "Hotwire",
+   "color": "#c3002f",
+   "site": "https://www.hotwire.com/car-rentals/",
+   "desc": "Discount site. Some deals hide the company until you book."
+  },
+  {
+   "id": "rentalcars",
+   "name": "Rentalcars.com",
+   "color": "#003580",
+   "site": "https://www.rentalcars.com/",
+   "desc": "Booking.com's car site. Strong for Jamaica and overseas."
+  },
+  {
+   "id": "costco",
+   "name": "Costco Travel",
+   "color": "#e31837",
+   "site": "https://www.costcotravel.com/Rental-Cars",
+   "desc": "Members only. Often low prices and one extra driver free."
+  },
+  {
+   "id": "autoslash",
+   "name": "AutoSlash",
+   "color": "#00a19a",
+   "site": "https://www.autoslash.com/",
+   "desc": "Free. Finds coupons and keeps tracking your rental for price drops."
+  },
+  {
+   "id": "turo",
+   "name": "Turo",
+   "color": "#593cfb",
+   "site": "https://turo.com/",
+   "desc": "Rent a car from a local owner. Check its insurance plans."
+  }
+ ]
+}

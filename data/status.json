@@ -1,0 +1,97 @@
+{
+ "checked": "2026-11-13T14:35:24Z",
+ "sites": {
+  "kayak": {
+   "code": 200,
+   "state": "up"
+  },
+  "expedia": {
+   "code": 429,
+   "state": "blocked"
+  },
+  "priceline": {
+   "code": 403,
+   "state": "blocked"
+  },
+  "hotwire": {
+   "code": 200,
+   "state": "up"
+  },
+  "rentalcars": {
+   "code": 200,
+   "state": "up"
+  },
+  "costco": {
+   "code": 403,
+   "state": "blocked"
+  },
+  "autoslash": {
+   "code": 200,
+   "state": "up"
+  },
+  "turo": {
+   "code": 200,
+   "state": "up"
+  },
+  "enterprise": {
+   "code": 403,
+   "state": "blocked"
+  },
+  "national": {
+   "code": 200,
+   "state": "up"
+  },
+  "advantage": {
+   "code": 429,
+   "state": "blocked"
+  },
+  "alamo": {
+   "code": 403,
+   "state": "blocked"
+  },
+  "sixt": {
+   "code": 200,
+   "state": "up"
+  },
+  "hertz": {
+   "code": 200,
+   "state": "up"
+  },
+  "ace": {
+   "code": 200,
+   "state": "up"
+  },
+  "payless": {
+   "code": 200,
+   "state": "up"
+  },
+  "avis": {
+   "code": 200,
+   "state": "up"
+  },
+  "fox": {
+   "code": 200,
+   "state": "up"
+  },
+  "budget": {
+   "code": 200,
+   "state": "up"
+  },
+  "thrifty": {
+   "code": 200,
+   "state": "up"
+  },
+  "dollar": {
+   "code": 200,
+   "state": "up"
+  },
+  "islandcar": {
+   "code": 403,
+   "state": "blocked"
+  },
+  "jtb": {
+   "code": 200,
+   "state": "up"
+  }
+ }
+}

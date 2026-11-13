@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Car Rental Finder</title>
+  <meta name="description" content="Find the best and cheapest rental car. One tap searches Kayak, Expedia, Costco Travel and the rental companies with your trip filled in.">
+  <meta name="theme-color" content="#0d8478">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Car Rental">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.png" type="image/png">
+  <link rel="icon" href="icon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem('crf-theme');if(t)document.documentElement.dataset.theme=JSON.parse(t);else if(matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme='dark';}catch(e){}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="brand" href="#/search" aria-label="Car Rental Finder home">
+      <img src="icons/icon-192.png" alt="" width="42" height="42">
+      <span><b>Car Rental Finder</b><small>Frisco, TX · DFW · DAL · Jamaica · information only</small></span>
+    </a>
+    <div class="top-actions">
+      <span id="netPill" class="pill" role="status">Checking…</span>
+      <button type="button" id="themeBtn" class="icon-btn" aria-pressed="false">Dark mode</button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <nav class="tabs" aria-label="Main sections">
+    <button type="button" data-go="search"><span aria-hidden="true">🔎</span>Search</button>
+    <button type="button" data-go="compare"><span aria-hidden="true">📊</span>Compare</button>
+    <button type="button" data-go="mine"><span aria-hidden="true">📝</span>My quotes</button>
+    <button type="button" data-go="calc"><span aria-hidden="true">🎚️</span>Calculator</button>
+    <button type="button" data-go="tips"><span aria-hidden="true">💰</span>Save money</button>
+  </nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
