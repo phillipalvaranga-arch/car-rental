@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T21:09:21Z",
+ "checked": "2026-11-18T20:45:51Z",
  "sites": {
   "kayak": {
    "code": 200,
@@ -90,8 +90,8 @@
    "state": "blocked"
   },
   "jtb": {
-   "code": 200,
-   "state": "up"
+   "code": 403,
+   "state": "blocked"
   }
  }
 }
